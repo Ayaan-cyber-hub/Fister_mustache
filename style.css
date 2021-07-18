@@ -1,0 +1,28 @@
+.Royale{
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.Royale:hover{
+    background-color: rgb(8, 87, 114);
+}
+
+canvas{
+    animation-name: Darkrai;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Darkrai{
+    from {box-shadow: 70px 60px 85px rgba(255, 0, 0, 0.601);}
+    to   {box-shadow: 75px 65px 90px royalblue}
+}
+body{
+    background-image: url("https://webstockreview.net/images/clipart-mustache-light-blue-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filter{
+    background-color: lightseagreen;
+}
